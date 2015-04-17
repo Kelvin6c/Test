@@ -1,1 +1,12 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_if" id="129" inline="false" x="86" y="68">
+    <value name="IF0">
+      <block type="sensor_button" id="150">
+        <field name="OBJECT">UP</field>
+      </block>
+    </value>
+    <statement name="DO0">
+      <block type="movement_forward" id="208"></block>
+    </statement>
+  </block>
+</xml>
